@@ -1,0 +1,12 @@
+language: r
+cache: packages
+warnings_are_errors: false
+
+r_github_packages:
+  - jimhester/covr
+
+after_failure:
+  find *Rcheck -name '*.fail' -print -exec cat '{}' \;
+
+after_success:
+  - Rscript -e 'library(covr);codecov()'
