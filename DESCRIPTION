@@ -1,11 +1,10 @@
-Package: r-simplexintersection
+Package: rSimplexIntersection
 Type: Package
 Title: Compute the volume of intersection between N-dimensional simplices.
 Version: 0.1.0
 Author: Kristian Agasøster Haaga
 Maintainer: Kristian Agasøster Haaga <kahaaga@gmail.com>
-Description: Wrapper around the SimplexIntersection.jl library available at 
-    https://github.com/kahaaga/r-simplexintersection.jl.
+Description: Wrapper around the SimplexIntersection.jl library
 License: GNU GPLv3
 Imports:
   JuliaCall,
