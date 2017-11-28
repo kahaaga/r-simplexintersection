@@ -2,7 +2,6 @@
 #'
 #' Initialise Julia and load relevant packages.
 #'
-#' @export
 setup_julia <- function() {
   # Set up Julia
   JuliaCall::julia_setup()

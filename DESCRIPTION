@@ -1,6 +1,6 @@
 Package: rSimplexIntersection
 Type: Package
-Title: Compute the volume of intersection between N-dimensional simplices.
+Title: Compute the volume of intersection between N-dimensional simplices
 Version: 0.1.0
 Author: Kristian Agasøster Haaga
 Maintainer: Kristian Agasøster Haaga <kahaaga@gmail.com>
