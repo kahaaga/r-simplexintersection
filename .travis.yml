@@ -1,9 +1,9 @@
 language: julia
 os:
-#  - linux
-  - osx
+  - linux
+#  - osx
 
-osx_image: xcode8.1
+#osx_image: xcode8.3
 
 env:
   - NOT_CRAN="true"
