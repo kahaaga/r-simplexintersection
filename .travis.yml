@@ -74,7 +74,7 @@ before_install:
   - Rscript -e 'install.packages("testthat", repos="http://cran.rstudio.com/")'
   - Rscript -e 'install.packages("JuliaCall", repos="http://cran.rstudio.com/")'
   - julia -e 'Pkg.add("Conda")'
-  - pip -e install scipy
+  - pip install scipy
   - julia -e 'Pkg.add("PyCall")'
   - julia -e 'Pkg.clone("https://github.com/kahaaga/SimplexIntersection.jl")'
   - julia -e 'using SimplexIntersection'
