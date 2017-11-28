@@ -1,6 +1,6 @@
 language: julia
 os:
-  - linux
+#  - linux
   - osx
 
 osx_image: xcode8.1
