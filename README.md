@@ -12,6 +12,7 @@ devtools::install_github("khaaga/r-simplexintersection")
 ## Using the package
 
 ### Example of volume calculation
+<!--
 ```r
 # Define two simplices that have some overlapping volume
 simplex1 <- t(matrix(c(0.934702, 0.297735, 0.670881, 
@@ -26,3 +27,4 @@ simplex2 <- t(matrix(c(0.670881, 0.85225, 0.297735,
 # Compute the intersecting volume
 vol = rSimplexIntersection::intersect_volume(S1 = simplex1, S2 = simplex2)
 ```
+-->

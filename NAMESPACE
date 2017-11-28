@@ -2,4 +2,3 @@
 
 export(intersect_vertices)
 export(intersect_volume)
-export(setup_julia)
