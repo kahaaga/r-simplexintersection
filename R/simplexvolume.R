@@ -14,6 +14,7 @@ intersect_volume <- function(S1, S2) {
     arg_list = list(S1, S2))[[1]]
 }
 
+
 #' Compute the intersection vertices between two simplices. Wraps the
 #' simplexintersection function from the SimplexIntersection.jl library
 #' at https://github.com/kahaaga/SimplexIntersection.jl
