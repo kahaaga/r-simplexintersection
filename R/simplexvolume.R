@@ -1,6 +1,12 @@
 # Setup Julia
 JuliaCall::julia_setup()
-JuliaCall::julia_library("SimplexIntersection")
+
+#' Load SimplexIntersection
+load_simplexintersect <- function() {
+  if (!JuliaCall::exists("SimplexIntersection")) {
+    JuliaCall::julia_library("SimplexIntersection")
+  }
+}
 
 #' Compute the intersection volume between two simplices. Wraps the
 #' simplexintersection function from the SimplexIntersection.jl library
@@ -13,6 +19,7 @@ intersect_volume <- function(S1, S2) {
     func_name = "SimplexIntersection.simplexintersection",
     arg_list = list(S1, S2))[[1]]
 }
+
 
 #' Compute the intersection vertices between two simplices. Wraps the
 #' simplexintersection function from the SimplexIntersection.jl library
