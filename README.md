@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kahaaga/r-simplexintersection.svg?branch=master)](https://travis-ci.org/kahaaga/r-simplexintersection.svg?branch=master) 
+[![Build Status](https://travis-ci.org/kahaaga/tstools.svg?branch=master)](https://travis-ci.org/kahaaga/r-simplexintersection) [![codecov](https://codecov.io/gh/kahaaga/r-simplexintersection/branch/master/graph/badge.svg)](https://codecov.io/gh/kahaaga/r-simplexintersection)
 
 # Exact simplex intersection in N dimensions
 R package for computing the intersection between simplices in N dimensions. Computes both the intersecting volume and the points in which the simplices intersect.
